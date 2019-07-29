@@ -57,7 +57,7 @@ public class Bricks
 					&& ball.getRectangle().getX() > this.getRectangle().getX() 
 					&& ball.getRectangle().getX() < this.getRectangle().getX() + this.width)
 				ball.yMovement(-2);
-			// if the brick is hit form anywhere else (sides) then the balls bounces completely
+			// if the brick is hit from anywhere else (sides) then the balls bounces completely
 			else
 			{
 				ball.yMovement(ball.getYMovement()*-1);
